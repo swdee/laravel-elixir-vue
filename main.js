@@ -7,6 +7,12 @@ Elixir.ready(function() {
             alias: {
                 vue: 'vue/dist/vue.js'
             }
+        },
+        // use buble loader since it is the default in Elixir
+        vue: {
+            loaders: {
+                js: 'buble-loader'
+            }
         },        
         babel: {
             presets: ['es2015'],
