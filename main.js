@@ -17,7 +17,7 @@ Elixir.ready(function() {
                 {
                     // use vue-loader for *.vue files
                     test: /\.vue$/,
-                    loader: 'vue'
+                    loader: 'vue-loader'
                 },
                 {
                     // use babel-loader for *.js files
