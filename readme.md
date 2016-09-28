@@ -1,6 +1,10 @@
 # Laravel Elixir Vue Integration
 
-This package provides Webpack support for compiling `.vue` files in your Laravel Elixir 6 projects. Please note that, if using Laravel Elixir 5 or below, you don't want this package.
+Updated to use Vue 2.0
+
+This package provides Webpack support for compiling `.vue` files in your Laravel 
+Elixir 6 projects. Please note that, if using Laravel Elixir 5 or below, 
+you don't want this package.
 
 ## Step 1: Install
 

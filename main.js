@@ -2,6 +2,12 @@ var Elixir = require('laravel-elixir');
 
 Elixir.ready(function() {
     Elixir.webpack.mergeConfig({
+        // ensure we are using the version of Vue that supports templates
+        resolve: {
+            alias: {
+                vue: 'vue/dist/vue.js'
+            }
+        },        
         babel: {
             presets: ['es2015'],
             plugins: ['add-module-exports', 'transform-runtime'],
